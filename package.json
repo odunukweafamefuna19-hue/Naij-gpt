@@ -1,0 +1,28 @@
+{
+  "name": "naija-gpt",
+  "version": "1.0.0",
+  "description": "NAIJA GPT — YOUR AI. YOUR WORLD. A mobile-first Nigerian Pidgin AI chat app powered by OpenRouter.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "openrouter",
+    "naija",
+    "pidgin"
+  ],
+  "author": "NAIJA GPT",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
